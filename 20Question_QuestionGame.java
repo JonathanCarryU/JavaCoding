@@ -50,7 +50,7 @@ public class QuestionGame {
     public static void main(String[] args) throws FileNotFoundException {
         QuestionGame game = new QuestionGame();
 
-        game.phareFile("D:/Personal/Shoreline/CS 143-E/CS 143/CS 143/20Questions/resource/questions1.txt");
+        game.phareFile("questions1.txt");
         game.play();
     }
 }
